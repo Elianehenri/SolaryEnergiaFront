@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { IGeracao, IUnidades } from 'src/app/models/interfaces';
 import { AlertasService } from 'src/app/services/alertas.service';
@@ -9,7 +9,7 @@ import { UnidadesService } from 'src/app/services/unidades.service';
   templateUrl: './cadastro-kw.component.html',
   styleUrls: ['./cadastro-kw.component.scss']
 })
-export class CadastroKwComponent {
+export class CadastroKwComponent implements OnInit{
 
   //unidade selecionada ou nao
   unidadeFoiSelecionada:boolean = true;

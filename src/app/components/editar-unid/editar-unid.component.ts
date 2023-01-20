@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { AlertasService } from 'src/app/services/alertas.service';
 import { UnidadesService } from 'src/app/services/unidades.service';
@@ -8,7 +8,7 @@ import { UnidadesService } from 'src/app/services/unidades.service';
   templateUrl: './editar-unid.component.html',
   styleUrls: ['./editar-unid.component.scss']
 })
-export class EditarUnidComponent {
+export class EditarUnidComponent  implements OnInit{
 
   constructor(
     public unidadeService:UnidadesService,

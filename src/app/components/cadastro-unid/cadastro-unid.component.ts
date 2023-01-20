@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { IUnidades } from 'src/app/models/interfaces';
 import { AlertasService } from 'src/app/services/alertas.service';
 import { UnidadesService } from 'src/app/services/unidades.service';
@@ -9,7 +9,7 @@ import { Title } from '@angular/platform-browser';
   templateUrl: './cadastro-unid.component.html',
   styleUrls: ['./cadastro-unid.component.scss']
 })
-export class CadastroUnidComponent {
+export class CadastroUnidComponent implements OnInit  {
 
 
 

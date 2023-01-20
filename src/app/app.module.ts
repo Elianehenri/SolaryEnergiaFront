@@ -13,6 +13,40 @@ import { EditarUnidComponent } from './components/editar-unid/editar-unid.compon
 import { FormsModule } from '@angular/forms';
 import { UnidadesComponent } from './pages/unidades/unidades.component';
 import { CadastroKwComponent } from './pages/cadastro-kw/cadastro-kw.component';
+import { RouterModule, Route } from '@angular/router';
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
+
+const ROUTES:Route[] = [
+  {
+    path:'',
+    component:LoginComponent
+  },
+  {
+    path:'dashboard',
+    component:DashboardComponent
+  },
+  {
+    path:'unidades',
+    children:[
+      {
+        path:'',
+        component:UnidadesComponent
+      },
+      {
+        path:'cadastro-unidades',
+        component:CadastroUnidComponent
+      },
+      {
+        path:'editar-unidades',
+        component:EditarUnidComponent
+      }
+    ]
+  },
+  {
+    path:'cadastro',
+    component:CadastroKwComponent
+  }
+]
 
 @NgModule({
   declarations: [
@@ -25,12 +59,14 @@ import { CadastroKwComponent } from './pages/cadastro-kw/cadastro-kw.component';
     EditarUnidComponent,
     UnidadesComponent,
     CadastroKwComponent,
+    DashboardComponent,
     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    RouterModule.forRoot(ROUTES),
     FormsModule
 
   ],

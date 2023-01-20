@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { Router } from '@angular/router';
+import { MOCK_UNIDADES } from 'src/app/mock/mock_unidades';
 import { IUnidades } from 'src/app/models/interfaces';
 import { AlertasService } from 'src/app/services/alertas.service';
 import { UnidadesService } from 'src/app/services/unidades.service';
@@ -10,9 +11,9 @@ import { UnidadesService } from 'src/app/services/unidades.service';
   templateUrl: './unidades.component.html',
   styleUrls: ['./unidades.component.scss']
 })
-export class UnidadesComponent {
+export class UnidadesComponent implements OnInit {
 
-  listaUnidades:IUnidades[] = []
+  listaUnidades:IUnidades[] = MOCK_UNIDADES;
 
   constructor(
     private router:Router,
