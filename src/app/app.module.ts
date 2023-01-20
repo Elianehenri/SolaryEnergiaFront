@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -9,6 +10,9 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { GraficoComponent } from './components/grafico/grafico.component';
 import { CadastroUnidComponent } from './components/cadastro-unid/cadastro-unid.component';
 import { EditarUnidComponent } from './components/editar-unid/editar-unid.component';
+import { FormsModule } from '@angular/forms';
+import { UnidadesComponent } from './pages/unidades/unidades.component';
+import { CadastroKwComponent } from './pages/cadastro-kw/cadastro-kw.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +22,17 @@ import { EditarUnidComponent } from './components/editar-unid/editar-unid.compon
     SidebarComponent,
     GraficoComponent,
     CadastroUnidComponent,
-    EditarUnidComponent
+    EditarUnidComponent,
+    UnidadesComponent,
+    CadastroKwComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
