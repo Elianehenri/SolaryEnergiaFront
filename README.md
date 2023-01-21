@@ -38,7 +38,7 @@
   $ git@github.com:Elianehenri/solaryEnergiaFront.git
   ```
   
-  # instalar:
+  ## instalar:
   ``` bash
 
 $ npm install
@@ -51,7 +51,7 @@ $ npm rum api
   ### ou
 $ json-server db.json --watch
   ```
-  # no  segunto terminal "Para executar o angular"
+  ## no  segunto terminal "Para executar o angular digite o comando:"
    ``` bash
 $ npm start
   ```
