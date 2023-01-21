@@ -2,8 +2,10 @@
 ## Refatoraçao do projeto que foi desenvolivido para o curso Devinhouse NDD - em 2022.
 ## FrontEnd
 
+<div align="center" width="100%">
 <img class="logo-nav" height="45%" width="45%" src="src/assets/imagens/tela_login.png" alt="img tela login">
 <img class="logo-nav" height="45%" width="45%" src="src/assets/imagens/tela_dashboard.png" alt="img tela dashboard">
+ </div>
 
 
 
