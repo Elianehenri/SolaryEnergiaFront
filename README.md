@@ -43,10 +43,11 @@
 npm install
   ```
   ## Abrir 2 terminais , no primeiro "Para executar o Json":
+  
     ``` bash
- npm rum api 
+$ npm rum api 
   # ou
-  json-server db.json --watch
+$ json-server db.json --watch
   ```
   # no  segunto terminal "Para executar o angular"
       ``` bash
