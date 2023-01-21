@@ -2,9 +2,9 @@
 ## Refatoraçao do projeto que foi desenvolivido para o curso Devinhouse NDD - em 2022.
 ## FrontEnd
 
-
-<img class="logo-nav" src="src/assets/imagens/tela_login.png" alt="img tela login">
-<img class="logo-nav" src="src/assets/imagens/tela_dashboard.png" alt="img tela dashboard">
+## <div align="center" width="100%">
+<img class="logo-nav" width="45%"height="180em" src="src/assets/imagens/tela_login.png" alt="img tela login">
+<img class="logo-nav" width="45%"height="180em" src="src/assets/imagens/tela_dashboard.png" alt="img tela dashboard">
 
 
 <div>
@@ -38,20 +38,20 @@
   $ git@github.com:Elianehenri/solaryEnergiaFront.git
   ```
   
-  ## instalar:
+  ### instalar:
   ``` bash
 
 $ npm install
   
   ```
-  ##Abrir 2 terminais , no primeiro "Para executar o Json":
+  ### Abrir 2 terminais , no primeiro "Para executar o Json":
   
  ``` bash
 $ npm rum api 
   ### ou
 $ json-server db.json --watch
   ```
-  ## no  segunto terminal "Para executar o angular digite o comando:"
+  ### no  segunto terminal "Para executar o angular digite o comando:"
    ``` bash
 $ npm start
   ```
