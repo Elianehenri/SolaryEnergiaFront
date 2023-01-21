@@ -1,4 +1,8 @@
 # SolaryEnergia
+##Refatorçao do projeto que foi desenvolivido para o curso Devinhouse NDD - em 2022.
+<img class="logo-nav" src="src/assets/imagens/tela_login.jpg" alt="img tela login">
+<img class="logo-nav" src="src/assets/imagens/tela_dashboard.jpg" alt="img tela dashboard">
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.2.
 
