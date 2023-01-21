@@ -2,8 +2,8 @@
 ##Refatorçao do projeto que foi desenvolivido para o curso Devinhouse NDD - em 2022.
 
 
-<img class="logo-nav" src="src/assets/imagens/tela_login.jpg" alt="img tela login">
-<img class="logo-nav" src="src/assets/imagens/tela_dashboard.jpg" alt="img tela dashboard">
+<img class="logo-nav" src="src/assets/imagens/tela_login.png" alt="img tela login">
+<img class="logo-nav" src="src/assets/imagens/tela_dashboard.png" alt="img tela dashboard">
 
 
 <h2>🛠️ Tecnologias Usadas</h2>  
