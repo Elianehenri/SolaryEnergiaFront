@@ -6,14 +6,14 @@
 <img class="logo-nav" src="src/assets/imagens/tela_dashboard.png" alt="img tela dashboard">
 
 
-<h2>🛠️ Tecnologias Usadas</h2>  
-<ul>
-    <li>Angular</li>
-    <li>Typescript</li>
-    <li>HTML</li>
-    <li>SASS</li>
-    <li>BootStrap</li>
-</ul>
+<div>
+<h2>Tecnologias Usadas</h2>
+<div style="display: inline_block"><br>
+  <img align="center" alt="CSharp" height="40" width="40" src="https://cdn-icons-png.flaticon.com/512/6132/6132221.png">
+  <img align="center" alt="CSharp" height="40" width="40" src="https://adrianwilczynski.gallerycdn.vsassets.io/extensions/adrianwilczynski/asp-net-core-snippet-pack/1.51.0/1586892181474/Microsoft.VisualStudio.Services.Icons.Default">
+  <img align="center" alt="sql" height="45" width="45" src="https://cdn-icons-png.flaticon.com/512/4492/4492311.png">
+  <img align="center" alt="angular" height="50" width="50" src="https://miro.medium.com/max/256/1*3H6_a9Srb655m3NiqlbbKQ.png">
+</div>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.2.
 
