@@ -15,6 +15,21 @@
   <img align="center" alt="Html,Css,JS" height="45" width="45" src="https://as1.ftcdn.net/v2/jpg/03/21/24/30/1000_F_321243084_GstfWflk1eTLlzUdRZ5mjoP5IG1iCc8J.jpg"> 
   
 </div>
+  
+  <h2>Requisitos da Aplicação</h2>
+  <ul>
+    <li>Uma Tela de Login contendo um formulário com campos de email e senha. Os campos de email e senha são obrigatórios. Ao clicar no botão de Entrar e passar pela validação, redirecionar para tela de Dashboard.</li>
+    <li>Menu lateral, contendo as opções Dashboard, Unidade Consumidora e Cadastro de energia gerada. O menu deve ser configurado usando Angular Router. </li>
+    <li>Uma tela de Dashboard contendo 4 cards: Total de unidades, unidades ativas, unidades inativas e média de energia.</li>
+    <li>A tela  de Dashboard deve conter um gráfico de linha exibindo os meses do ano. O gráfico deverá exibir o total de energia gerado por mês, sendo assim deve-se realizar a soma por mês do total gerado de todas as unidades e exibir no gráfico o total de cada mês, o eixo x deve-se exibir os últimos 12 meses e no eixo y o total por mês.</li>
+    <li>Uma tela de Listagem de unidades (consumir rota /unidades do json-server) contendo uma tabela com as colunas ID, apelido, Local, Marca e modelo, além dos botões Editar e Excluir. A tela deve conter um botão Nova unidade (Ao clicar, enviar usuário para tela de cadastro de unidade).</li>
+    <li>Uma tela de cadastro de unidade, contendo um formulário com os campos apelido, Local, Marca, modelo e status (Checkbox). Ao clicar no botão salvar, cadastrar unidade via POST na rota /unidades do json-server. Todos os campos do formulário são obrigatórios.</li>
+    <li>Implementar botão de remover unidade na tela de Listagem de unidades. Ao clicar no botão deve remover unidade clicada via DELETE na rota /unidades/:id do json-server.</li>
+    <li>Criar o botão de editar unidade, ao clicar no botão de editar, enviar usuário para tela de edição de unidade. Ao renderizar a tela, trazer os campos preenchidos com as informações da unidade clicada, ao clicar em salvar, salvar os valores via PUT na rota /unidades/:id do json-server.</li>
+    <li>ICriar a tela de Lançamento de geração mensal contendo um formulário com um 'Select' (listando como opção as unidades já cadastradas e ativas, consumindo do json-serve), um campo de data e um campo de total kw gerado (aceita somente números). Ao clicar em salvar, cadastre valores via POST na rota /gerações do json-server.</li>
+</ul>
+
+  
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.2.
 
