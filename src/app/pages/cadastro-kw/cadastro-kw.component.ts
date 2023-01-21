@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
+import { MOCK_UNIDADES } from 'src/app/mock/mock_unidades';
 import { IGeracao, IUnidades } from 'src/app/models/interfaces';
 import { AlertasService } from 'src/app/services/alertas.service';
 import { UnidadesService } from 'src/app/services/unidades.service';
@@ -15,7 +16,7 @@ export class CadastroKwComponent implements OnInit{
   unidadeFoiSelecionada:boolean = true;
 
 
-  listaUnidadesAtivas:IUnidades[] = []
+  listaUnidadesAtivas:IUnidades[] = [] //MOCK_UNIDADES
   listaGeracao:IGeracao[] = []
 
 

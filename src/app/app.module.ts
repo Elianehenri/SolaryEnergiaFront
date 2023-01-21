@@ -15,6 +15,7 @@ import { UnidadesComponent } from './pages/unidades/unidades.component';
 import { CadastroKwComponent } from './pages/cadastro-kw/cadastro-kw.component';
 import { RouterModule, Route } from '@angular/router';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { NgChartsModule } from 'ng2-charts';
 
 const ROUTES:Route[] = [
   {
@@ -60,17 +61,19 @@ const ROUTES:Route[] = [
     UnidadesComponent,
     CadastroKwComponent,
     DashboardComponent,
-    
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    //AppRoutingModule,
     HttpClientModule,
     RouterModule.forRoot(ROUTES),
-    FormsModule
+    FormsModule,
+    NgChartsModule
 
   ],
   providers: [],
   bootstrap: [AppComponent]
+
 })
 export class AppModule { }

@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
+import { MOCK_UNIDADES } from '../mock/mock_unidades';
 import { IGeracao, IUnidades } from '../models/interfaces';
 import { AlertasService } from './alertas.service';
 
@@ -11,7 +12,7 @@ import { AlertasService } from './alertas.service';
 export class UnidadesService {
 
   //guardar a lista de unidades
-  listaUnidades: IUnidades[] = []
+  listaUnidades: IUnidades[] = MOCK_UNIDADES
 
   // guardar enderço url
   enderecoURL: string = 'http://localhost:3000';

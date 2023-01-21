@@ -1,10 +1,12 @@
 
+
 .principal{
   display: flex;
   background-color: #FAFAFA;
 }
 .content{
   width: 100%;
+
   .title{
       background-color: #ffffff;
       padding: 15px;
@@ -23,6 +25,7 @@
   color: #374557;
   margin-bottom: 40px;
   margin-top: 40px;
+  display:block;
 }
 
 table{
@@ -60,7 +63,7 @@ table{
   border-radius: 4px;
 }
 .btn-success{
-  background-color: #8DB51B; 
+  background-color: #8DB51B;
 }
 .btn-danger{
   background: #D82D56;

@@ -1,7 +1,7 @@
 import { IUnidades } from "../models/interfaces";
 
 
-export const MOCK_UNIDADES:IUnidades[] = [
+ export const MOCK_UNIDADES:IUnidades[] = [
     {
         apelido : 'Painel 1',
         local : 'Rua 5',

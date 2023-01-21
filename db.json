@@ -1,0 +1,106 @@
+{
+  "geracao": [
+    {
+      "id_unid": 125,
+      "data": "2023-01",
+      "kw": 190,
+      "id": 13
+    },
+    {
+      "id_unid": 59,
+      "data": "2023-03",
+      "kw": 120,
+      "id": 11
+    },
+    {
+      "id_unid": 581,
+      "data": "2023-02",
+      "kw": 60,
+      "id": 59
+    },
+    {
+      "id_unid": 176,
+      "data": "2022-05",
+      "kw": 120,
+      "id": 8
+    },
+    {
+      "id_unid": 88,
+      "data": "2023-04",
+      "kw": 150,
+      "id": 30
+    },
+    {
+      "id_unid": 708,
+      "data": "2023-06",
+      "kw": 140,
+      "id": 103
+    },
+    {
+      "id_unid": 62,
+      "data": "2023-06",
+      "kw": 120,
+      "id": 85
+    },
+    {
+      "id_unid": 13,
+      "data": "2023-02",
+      "kw": 125,
+      "id": 25
+    },
+    {
+      "id_unid": 581,
+      "data": "2023-03",
+      "kw": 4587,
+      "id": 54
+    },
+    {
+      "id_unid": 13,
+      "data": "2023-01",
+      "kw": 187,
+      "id": 28
+    }
+  ],
+  "unidades": [
+    {
+      "apelido": "painel 1",
+      "local": "rua Sao Jose",
+      "marca": "canadian",
+      "modelo": "165w",
+      "isActive": true,
+      "id": 13
+    },
+    {
+      "apelido": "Painel 2",
+      "local": "rua 15",
+      "marca": "risen",
+      "modelo": "100w",
+      "isActive": true,
+      "id": 30
+    },
+    {
+      "apelido": "painel 3",
+      "local": "urubici",
+      "marca": "hanwha",
+      "modelo": "200w",
+      "isActive": true,
+      "id": 85
+    },
+    {
+      "apelido": "painel 8",
+      "local": "lages",
+      "marca": "Resun",
+      "modelo": "200w",
+      "isActive": false,
+      "id": 8
+    },
+    {
+      "apelido": "Urubici",
+      "local": "Jose Zeferino Ribeiro",
+      "marca": "SDA",
+      "modelo": "100w",
+      "isActive": true,
+      "id": 806
+    }
+  ]
+}

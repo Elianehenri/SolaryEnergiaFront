@@ -13,7 +13,7 @@ import { UnidadesService } from 'src/app/services/unidades.service';
 })
 export class UnidadesComponent implements OnInit {
 
-  listaUnidades:IUnidades[] = MOCK_UNIDADES;
+  listaUnidades:IUnidades[] = [];//MOCK_UNIDADES
 
   constructor(
     private router:Router,

@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
+
 import { IUnidades, IGeracao } from 'src/app/models/interfaces';
+
 import { UnidadesService } from 'src/app/services/unidades.service';
 
 @Component({
@@ -11,8 +13,8 @@ import { UnidadesService } from 'src/app/services/unidades.service';
 export class DashboardComponent implements OnInit {
 
   //lista de unidade e geraçoes
-  listaUnidades:IUnidades[] = [];
-  listaGeracao:IGeracao[] = [];
+  listaUnidades:IUnidades[] =[];
+  listaGeracao:IGeracao[] = []
 
   //variaveis que guardam o valor dos cards
   totalDeUnidades:number = 0;
@@ -22,7 +24,9 @@ export class DashboardComponent implements OnInit {
 
   constructor(
     private unidadeService:UnidadesService,
-    private serviceTitle: Title) { }
+    private serviceTitle: Title
+
+    ) { }
 
   ngOnInit(): void {
     this.serviceTitle.setTitle('Solar Energy - Dashboard');
@@ -55,7 +59,7 @@ export class DashboardComponent implements OnInit {
         }
       })
     }
-  
+
     //media dos kw
     mediaEnergia(){
       this.unidadeService.devolverGeracao()
