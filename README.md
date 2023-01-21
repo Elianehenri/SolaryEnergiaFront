@@ -9,9 +9,9 @@
 <div>
 <h2>Tecnologias Usadas</h2>
 <div style="display: inline_block"><br>
-  <img align="center" alt="CSharp" height="40" width="40" src="https://cdn-icons-png.flaticon.com/512/6132/6132221.png">
-  <img align="center" alt="CSharp" height="40" width="40" src="https://adrianwilczynski.gallerycdn.vsassets.io/extensions/adrianwilczynski/asp-net-core-snippet-pack/1.51.0/1586892181474/Microsoft.VisualStudio.Services.Icons.Default">
-  <img align="center" alt="sql" height="45" width="45" src="https://cdn-icons-png.flaticon.com/512/4492/4492311.png">
+  <img align="center" alt="Typescript" height="40" width="40" src="https://cdn-icons-png.flaticon.com/512/5968/5968381.png">
+  <img align="center" alt="Html" height="40" width="40" src="https://as2.ftcdn.net/v2/jpg/04/18/60/19/1000_F_418601991_Jvt0aZrBDxgbd5EJR1UyKXHvO9Q1mSBw.jpg">
+  <img align="center" alt="Html,Css,JS" height="45" width="45" src="https://as1.ftcdn.net/v2/jpg/03/21/24/30/1000_F_321243084_GstfWflk1eTLlzUdRZ5mjoP5IG1iCc8J.jpg>
   <img align="center" alt="angular" height="50" width="50" src="https://miro.medium.com/max/256/1*3H6_a9Srb655m3NiqlbbKQ.png">
 </div>
 
