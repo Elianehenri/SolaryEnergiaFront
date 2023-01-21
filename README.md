@@ -51,14 +51,14 @@ $ npm rum api
   ### ou
 $ json-server db.json --watch
   ```
-  #no  segunto terminal "Para executar o angular"
-      ``` bash
+  # no  segunto terminal "Para executar o angular"
+   ``` bash
 $ npm start
   ```
   
   
 
-  ```
+ 
   
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.2.
 
