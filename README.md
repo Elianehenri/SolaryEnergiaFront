@@ -11,7 +11,7 @@
 <div style="display: inline_block"><br>
   <img align="center" alt="angular" height="50" width="50" src="https://miro.medium.com/max/256/1*3H6_a9Srb655m3NiqlbbKQ.png">
   <img align="center" alt="Typescript" height="40" width="40" src="https://cdn-icons-png.flaticon.com/512/5968/5968381.png">
-  <img align="center" alt="Bootstrap" height="40" width="40" src="https://user-images.githubusercontent.com/91481509/213879064-97316329-bce9-48c6-b3dd-3b141a7ad50f.png)">
+  <img align="center" alt="Bootstrap" height="40" width="40" src="https://as1.ftcdn.net/v2/jpg/01/39/48/46/1000_F_139484626_cqPNhvfRtWrNMNmuSeBMBiCUkPJTzgjS.jpg">
   <img align="center" alt="Html,Css,JS" height="45" width="45" src="https://as1.ftcdn.net/v2/jpg/03/21/24/30/1000_F_321243084_GstfWflk1eTLlzUdRZ5mjoP5IG1iCc8J.jpg"> 
   
 </div>
