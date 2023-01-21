@@ -32,6 +32,7 @@
   
   
   ## Para executar o projeto você deve:
+  
   ``` bash
 # Clone este repositório :
   $ git@github.com:Elianehenri/solaryEnergiaFront.git
@@ -40,16 +41,17 @@
   # instalar:
   ``` bash
 
-npm install
-  ```
-  ## Abrir 2 terminais , no primeiro "Para executar o Json":
+$ npm install
   
-    ``` bash
+  ```
+  ##Abrir 2 terminais , no primeiro "Para executar o Json":
+  
+ ``` bash
 $ npm rum api 
-  # ou
+  ### ou
 $ json-server db.json --watch
   ```
-  # no  segunto terminal "Para executar o angular"
+  #no  segunto terminal "Para executar o angular"
       ``` bash
 $ npm start
   ```
