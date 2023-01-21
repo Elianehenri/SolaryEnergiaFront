@@ -1,5 +1,6 @@
 # SolaryEnergia
-##Refatorçao do projeto que foi desenvolivido para o curso Devinhouse NDD - em 2022.
+## Refatoraçao do projeto que foi desenvolivido para o curso Devinhouse NDD - em 2022.
+## FrontEnd
 
 
 <img class="logo-nav" src="src/assets/imagens/tela_login.png" alt="img tela login">
@@ -28,7 +29,12 @@
     <li>Criar o botão de editar unidade, ao clicar no botão de editar, enviar usuário para tela de edição de unidade. Ao renderizar a tela, trazer os campos preenchidos com as informações da unidade clicada, ao clicar em salvar, salvar os valores via PUT na rota /unidades/:id do json-server.</li>
     <li>ICriar a tela de Lançamento de geração mensal contendo um formulário com um 'Select' (listando como opção as unidades já cadastradas e ativas, consumindo do json-serve), um campo de data e um campo de total kw gerado (aceita somente números). Ao clicar em salvar, cadastre valores via POST na rota /gerações do json-server.</li>
 </ul>
-
+  
+  
+  ##Para executar o projeto você deve:
+  
+#Clone este repositório :
+  $ git@github.com:Elianehenri/solaryEnergiaFront.git
   
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.2.
