@@ -32,10 +32,10 @@
   
   
   ##Para executar o projeto você deve:
-  
+  ``` bash
 #Clone este repositório :
   $ git@github.com:Elianehenri/solaryEnergiaFront.git
-  
+  ```
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.2.
 
