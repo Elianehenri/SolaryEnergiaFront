@@ -3,8 +3,8 @@
 ## FrontEnd
 
 ## <div align="center" width="100%">
-<img class="logo-nav" width="45%"height="180em" src="src/assets/imagens/tela_login.png" alt="img tela login">
-<img class="logo-nav" width="45%"height="180em" src="src/assets/imagens/tela_dashboard.png" alt="img tela dashboard">
+<img   width="45%"height="180em" src="src/assets/imagens/tela_login.png" alt="img tela login">
+<img   width="45%"height="180em" src="src/assets/imagens/tela_dashboard.png" alt="img tela dashboard">
   </div>
 
 
